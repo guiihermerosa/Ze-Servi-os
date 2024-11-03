@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zé Serviços</title>
+   <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <div class="logo">ZÈ</div>
+        <nav>
+            <ul>
+                <li><a href="#">Serviços</a></li>
+                <li><a href="#">Seja um Zé</a></li>
+                <li><a href="#">Sobre Nós</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#" class="entrar-btn">Entrar</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>Nem Estressa, Chama <span>ZÉ</span></h1>
+            <p>Encontre os melhores prestadores de serviços próximos a você</p>
+            <div class="search-box">
+                <ul class="location-tabs">
+                    <li class="active">São Paulo</li>
+                    <li>Rio de Janeiro</li>
+                    <li>Porto Alegre</li>
+                </ul>
+                <input type="search" id="specialty" list="specialties" placeholder="Escolha a especialidade">
+                <datalist id="specialties">
+                    <option value="Instalação de Câmeras de Segurança">
+                    <option value="Instalação de Alarmes e Sensores">
+                    <option value="Controle de Acesso">
+                    <option value="Redes e Conectividade">
+                    <option value="Suporte Técnico em TI">
+                </datalist>
+                <button id="search-btn">Buscar</button>
+            </div>
+        </section>
+        <section class="services">
+          <h2>SERVIÇOS <span>MAIS PEDIDOS</span></h2>
+          <div class="services-grid">
+              <div class="service-item">
+                  <img src="./assets/controle-de-acesso.webp" alt="Crontrole de Acesso">
+                  <p class="service-name">Controle de Acesso<span>→</span></p>
+              </div>
+              <div class="service-item">
+                  <img src="./assets/RedesConectividade.jpeg" alt="RedesConectividade">
+                  <p class="service-name">Redes e Conectividade<span>→</span></p>
+              </div>
+              <div class="service-item">
+                  <img src="./assets/Suporte-Tecnico-em-TI.jpg" alt="Suporte-Tecnico-em-TI">
+                  <p class="service-name">Suporte Técnico em TI  <span>→</span></p>
+              </div>
+          </div>
+          <button class="view-all-btn">Ver todos →</button>
+      </section>
+    </main>
+    <footer>
+      <div class="footer-content">
+          <div class="footer-section about">
+              <h2>ZÉ</h2>
+              <p>O ZÉ conecta você aos melhores prestadores de serviços da sua região, de forma prática e segura. Encontre o profissional ideal para a sua necessidade e faça tudo sem estresse.</p>
+              <div class="socials">
+                  <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                  <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                  <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+              </div>
+          </div>
+  
+          <div class="footer-section links">
+              <h3>Links Rápidos</h3>
+              <ul>
+                  <li><a href="#">Serviços</a></li>
+                  <li><a href="#">Sobre Nós</a></li>
+                  <li><a href="#">Blog</a></li>
+                  <li><a href="#">Ajuda</a></li>
+              </ul>
+          </div>
+  
+          <div class="footer-section contact">
+              <h3>Contato</h3>
+              <p><i class="fas fa-phone"></i> +55 (11) 99999-9999</p>
+              <p><i class="fas fa-envelope"></i> atendimento@zeservicos.com.br</p>
+              <p><i class="fas fa-map-marker-alt"></i> Rua Exemplo, 123 - São Paulo, SP</p>
+          </div>
+      </div>
+      <div class="footer-bottom">
+          &copy; 2024 ZÉ. Todos os direitos reservados.
+      </div>
+  </footer>
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/js/all.min.js" integrity="sha512-6sSYJqDreZRZGkJ3b+YfdhB3MzmuP9R7X1QZ6g5aIXhRvR1Y/N/P47jmnkENm7YL3oqsmI6AK+V6AD99uWDnIw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script.js"></script>
+</body>
+</html>
